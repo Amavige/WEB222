@@ -1,0 +1,71 @@
+Amiel Thompson
+117065219
+WEB222 Test 1 – 23 Marks
+Instructions:
+
+Complete all questions in a single file named test-1-your-name.txt (i.e., include your name in the filename, use a .txt extension so Blackboard doesn’t complain about .js).  You will upload this file to Blackboard when complete. Properly number/label all your answers so it is clear which answer goes with which question.
+
+You may NOT discuss your work with anyone else.  All work must be your own.  You MAY consult your notes.
+Question 1 (5 Marks):
+Write a function declaration called sumStrings that takes three String arguments: one, two, three.  Convert these values to Numbers, add them together, and return the result as a Number.
+
+Calling sumStrings(“1”, “2”, “3”) should return the Number 6 
+
+Answer 1.
+function sumStrings(one,two,three){
+ return one+two+three;
+};
+console.log(sumStrings(1,3,2));//6
+Question 2 (5 Marks):
+Write a function expression called sumStringsEquation that takes three String arguments: one, two, three.  Create a string equation of these values and their sum, using your sumStrings() function from question 1.
+
+Calling sumStringsEquation(“1”, “2”, “3”) should return the String “1 + 2 + 3 = 6”
+
+Answer 2.
+sumStrings("1+2+3=6");
+function sumStrings(sumStringsEquation){
+console.log(sumStringsEquation);
+};
+
+Question 3 (5 Marks)
+Simulate rolling a dice using Math.random(). Your roll function should allow the caller to specify any number of sides, but default to 6 if no side count is given: roll() assumes a 6 sided dice, returning a random number between 0 and 5, while roll(50) uses a 50 sided dice, and returns a random number between 0 and 49.
+
+Answer 3.
+function getroll(num){
+if(!num)
+{
+return Math.floor(Math.random(6) * num);
+console.log(getroll(6));
+}
+else {
+  return Math.floor(Math.random() * num);
+console.log(getroll(50));
+     }
+};
+
+Question 4 (5 Marks)
+Given r (radius) of a circle, calculate the area of a circle (A = π * r * r).
+
+Answer 4.
+var radius = 5.6;                       
+var area = 3.14 * radius * radius;
+console.log(area,"is the area");
+
+
+
+
+
+Question 5 (3 Marks)
+Explain the following code in your own words, discussing how it uses JavaScript scope and closures.
+function createFn(factor) {
+    return function(value) {
+        return value * factor;
+    };
+}
+let fn = createFn(10);
+console.log(fn(6));  // What will this print and why?
+
+Answer 5.
+How a closure and a scope is being used within the code is with the top nested part of the code being cut off with the curly braces of the bottom part of the code this would make the top lines of code a closure.
+The scope being the declaration of let fn since we are defining the variable there.
+Which in the console log would print 60 because at the inner function at the top of the code it is creating to functions being value and factor to multiply together and then is returning the data at the public outer function(bottom part of the code) and is being displayed.

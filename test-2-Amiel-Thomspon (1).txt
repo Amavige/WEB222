@@ -1,0 +1,57 @@
+//Amiel Thompson
+//athompson64@myseneca.ca
+//117065219
+//NEE
+
+//Answer1
+
+function myFunction() {
+    console.log("" + words);
+    }
+    var words = ["HI","AND","Welcome","to","WEB222"];
+    words.forEach(myFunction);
+
+//Answer2
+let itemTimeline = [];
+
+function addItemToHistory(items){
+itemTimeline.push(items);
+}
+addItemToHistory("Chocolate");
+console.log(itemTimeline);
+addItemToHistory("Vanilla");
+console.log(itemTimeline);
+
+// Answer 3a
+function formatUsernames(usernames,includeAtsign){
+    var usernames =["@coolguy","@Sonic","@Mario"];
+    usernames.includeAtsign("@");
+    usernames.trim();
+    usernames.tolower();
+    usernames.push();
+}
+console.log(formatUsernames);
+
+
+
+// Answer 3b
+function formatUsernames(usernames,includeAtsign){
+    var usernames =["coolguy","Sonic","Mario"];
+    usernames.includeAtsign("@");
+    usernames.trim();
+    usernames.tolower();
+    usernames.push();
+}
+console.log(formatUsernames);
+// Answer 4
+function extractDomains(gmail) {
+    let domain = new Set();
+    let i = 0;
+  
+    while (i < gmail.length){
+      gmail[i] = gmail[i].split("@").pop();
+      domain.add(gmail[i]);
+      i++;
+    }
+    return domain;
+  }

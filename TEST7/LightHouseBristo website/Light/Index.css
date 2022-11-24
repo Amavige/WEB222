@@ -1,0 +1,33 @@
+.head {
+  border: 5px outset black;
+  background-color: lightblue;
+  text-align: left;
+  color: black;
+  border-radius: 25px;
+  font-style:italic;
+}
+
+.nav{
+  background-color: white;
+  text-align: left;
+  margin: 0px;
+padding-left: 10px;
+padding-right: 10px;
+    font-size: 15px;
+}
+.nav a:hover{
+  color: black;
+}
+
+.body{
+    background-color:white ;
+    color: black;
+}
+.footer{
+    background-color: white;
+    text-align: center;
+
+}
+body{
+  background-color:white;
+}
