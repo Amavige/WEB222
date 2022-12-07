@@ -1,0 +1,126 @@
+div{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+"Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-color: red;
+    color: black;
+}
+body{
+    background-image: url('Me.png');
+    background-attachment: fixed;
+    background-size: 200px;
+}
+.nav a:hover{
+    font:icon;
+    color: blue;
+    background: gray;
+}
+.nav{
+    font: icon;
+    color: lemonchiffon;
+}
+a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  .center {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+  }
+p{
+    size: 10px;
+}
+h1{
+    font-style: oblique;
+    color: black;
+    text-align: left;
+}
+
+h2{
+    font-style: oblique;
+    color: black;
+    font-size: 38px;
+}
+li{
+    font-size: 25px;
+}
+
+#myself {
+    background: black;
+    border-radius: 25px;
+    max-width: 1024px;
+    margin: 20px auto 50px;
+    padding: 0 40px 40px 40px;
+}
+.class1 {
+    display: flex;
+}
+
+.class2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.button-link {
+    font-weight: 700;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Robert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+.row1 {
+    display: table-row;
+    height: 150px;
+    width: 1000px;
+}
+.cell1 {
+    border: 1px solid;
+    border-radius: 25px 0 0 25px;
+    display: table-cell;
+    text-align: center;
+    margin: auto;
+}
+
+.cell2 {
+    border: 1px solid;
+    border-radius: 0px 25px 25px 0px;
+    display: table-cell;
+    padding: 2px;
+    width: 75%;
+    text-align: left;
+}
+
+#School {
+    margin: 20px auto 30px;
+    display: table;
+    width: 100%;
+    border-radius: 25px;
+}
+h3{
+
+    font-size: 40px;
+    font-style: oblique;
+}
